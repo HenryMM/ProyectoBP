@@ -1,0 +1,12 @@
+C:\Users\Henry\Documents\Prueba BP\ProyectoBP\App.BP\App.BP.Common\bin\Debug\net6.0\App.BP.Common.deps.json
+C:\Users\Henry\Documents\Prueba BP\ProyectoBP\App.BP\App.BP.Common\bin\Debug\net6.0\App.BP.Common.dll
+C:\Users\Henry\Documents\Prueba BP\ProyectoBP\App.BP\App.BP.Common\bin\Debug\net6.0\App.BP.Common.pdb
+C:\Users\Henry\Documents\Prueba BP\ProyectoBP\App.BP\App.BP.Common\obj\Debug\net6.0\App.BP.Common.csproj.AssemblyReference.cache
+C:\Users\Henry\Documents\Prueba BP\ProyectoBP\App.BP\App.BP.Common\obj\Debug\net6.0\App.BP.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Henry\Documents\Prueba BP\ProyectoBP\App.BP\App.BP.Common\obj\Debug\net6.0\App.BP.Common.AssemblyInfoInputs.cache
+C:\Users\Henry\Documents\Prueba BP\ProyectoBP\App.BP\App.BP.Common\obj\Debug\net6.0\App.BP.Common.AssemblyInfo.cs
+C:\Users\Henry\Documents\Prueba BP\ProyectoBP\App.BP\App.BP.Common\obj\Debug\net6.0\App.BP.Common.csproj.CoreCompileInputs.cache
+C:\Users\Henry\Documents\Prueba BP\ProyectoBP\App.BP\App.BP.Common\obj\Debug\net6.0\App.BP.Common.dll
+C:\Users\Henry\Documents\Prueba BP\ProyectoBP\App.BP\App.BP.Common\obj\Debug\net6.0\refint\App.BP.Common.dll
+C:\Users\Henry\Documents\Prueba BP\ProyectoBP\App.BP\App.BP.Common\obj\Debug\net6.0\App.BP.Common.pdb
+C:\Users\Henry\Documents\Prueba BP\ProyectoBP\App.BP\App.BP.Common\obj\Debug\net6.0\ref\App.BP.Common.dll

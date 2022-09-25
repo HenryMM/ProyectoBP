@@ -59,3 +59,9 @@ C:\Users\Henry\Documents\Prueba BP\ProyectoBP\App.BP\App.BP.WebAPI\obj\Debug\net
 C:\Users\Henry\Documents\Prueba BP\ProyectoBP\App.BP\App.BP.WebAPI\obj\Debug\net6.0\App.BP.WebAPI.pdb
 C:\Users\Henry\Documents\Prueba BP\ProyectoBP\App.BP\App.BP.WebAPI\obj\Debug\net6.0\App.BP.WebAPI.genruntimeconfig.cache
 C:\Users\Henry\Documents\Prueba BP\ProyectoBP\App.BP\App.BP.WebAPI\obj\Debug\net6.0\ref\App.BP.WebAPI.dll
+C:\Users\Henry\Documents\Prueba BP\ProyectoBP\App.BP\App.BP.WebAPI\bin\Debug\net6.0\App.BP.BLL.dll
+C:\Users\Henry\Documents\Prueba BP\ProyectoBP\App.BP\App.BP.WebAPI\bin\Debug\net6.0\App.BP.Repository.dll
+C:\Users\Henry\Documents\Prueba BP\ProyectoBP\App.BP\App.BP.WebAPI\bin\Debug\net6.0\App.BP.BLL.pdb
+C:\Users\Henry\Documents\Prueba BP\ProyectoBP\App.BP\App.BP.WebAPI\bin\Debug\net6.0\App.BP.Repository.pdb
+C:\Users\Henry\Documents\Prueba BP\ProyectoBP\App.BP\App.BP.WebAPI\bin\Debug\net6.0\App.BP.Common.dll
+C:\Users\Henry\Documents\Prueba BP\ProyectoBP\App.BP\App.BP.WebAPI\bin\Debug\net6.0\App.BP.Common.pdb

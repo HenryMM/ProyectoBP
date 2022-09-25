@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "App.BP.WebAPI/1.0.0": {
         "dependencies": {
+          "App.BP.BLL": "1.0.0",
+          "App.BP.Common": "1.0.0",
           "App.BP.Data": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9",
           "Swashbuckle.AspNetCore": "6.2.3"
@@ -455,12 +457,35 @@
           }
         }
       },
+      "App.BP.BLL/1.0.0": {
+        "dependencies": {
+          "App.BP.Common": "1.0.0",
+          "App.BP.Repository": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.9"
+        },
+        "runtime": {
+          "App.BP.BLL.dll": {}
+        }
+      },
+      "App.BP.Common/1.0.0": {
+        "runtime": {
+          "App.BP.Common.dll": {}
+        }
+      },
       "App.BP.Data/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.9"
         },
         "runtime": {
           "App.BP.Data.dll": {}
+        }
+      },
+      "App.BP.Repository/1.0.0": {
+        "dependencies": {
+          "App.BP.Data": "1.0.0"
+        },
+        "runtime": {
+          "App.BP.Repository.dll": {}
         }
       }
     }
@@ -793,7 +818,22 @@
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
+    "App.BP.BLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "App.BP.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "App.BP.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "App.BP.Repository/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

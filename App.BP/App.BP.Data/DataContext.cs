@@ -12,5 +12,6 @@ namespace App.BP.Data
         public DbSet<Cliente> Clientes { get; set; }
         public DbSet<Cuenta> Cuentas { get; set; }
         public DbSet<Movimiento> Movimientos { get; set; }
+        public DbSet<Persona> Personas { get; set; }
     }
 }

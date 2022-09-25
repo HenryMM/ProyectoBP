@@ -825,6 +825,31 @@
           }
         }
       },
+      "App.BP.BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "App.BP.Common": "1.0.0",
+          "App.BP.Repository": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.9"
+        },
+        "compile": {
+          "bin/placeholder/App.BP.BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.BP.BLL.dll": {}
+        }
+      },
+      "App.BP.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/App.BP.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.BP.Common.dll": {}
+        }
+      },
       "App.BP.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -836,6 +861,19 @@
         },
         "runtime": {
           "bin/placeholder/App.BP.Data.dll": {}
+        }
+      },
+      "App.BP.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "App.BP.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/App.BP.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.BP.Repository.dll": {}
         }
       }
     }
@@ -2128,14 +2166,31 @@
         "version.txt"
       ]
     },
+    "App.BP.BLL/1.0.0": {
+      "type": "project",
+      "path": "../App.BP.BLL/App.BP.BLL.csproj",
+      "msbuildProject": "../App.BP.BLL/App.BP.BLL.csproj"
+    },
+    "App.BP.Common/1.0.0": {
+      "type": "project",
+      "path": "../App.BP.Common/App.BP.Common.csproj",
+      "msbuildProject": "../App.BP.Common/App.BP.Common.csproj"
+    },
     "App.BP.Data/1.0.0": {
       "type": "project",
       "path": "../App.BP.Data/App.BP.Data.csproj",
       "msbuildProject": "../App.BP.Data/App.BP.Data.csproj"
+    },
+    "App.BP.Repository/1.0.0": {
+      "type": "project",
+      "path": "../App.BP.Repository/App.BP.Repository.csproj",
+      "msbuildProject": "../App.BP.Repository/App.BP.Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "App.BP.BLL >= 1.0.0",
+      "App.BP.Common >= 1.0.0",
       "App.BP.Data >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.9",
       "Swashbuckle.AspNetCore >= 6.2.3"
@@ -2168,6 +2223,12 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.BLL\\App.BP.BLL.csproj": {
+              "projectPath": "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.BLL\\App.BP.BLL.csproj"
+            },
+            "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.Common\\App.BP.Common.csproj": {
+              "projectPath": "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.Common\\App.BP.Common.csproj"
+            },
             "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.Data\\App.BP.Data.csproj": {
               "projectPath": "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.Data\\App.BP.Data.csproj"
             }
