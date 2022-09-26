@@ -13,16 +13,7 @@ namespace App.BP.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //modelBuilder.Entity<Cliente>()
-            //    .HasMany(b => b.Cuentas)
-            //    .WithOne()
-            //    .HasForeignKey(b=>b.ClienteId);
 
-            //modelBuilder.Entity<Cliente>()
-            //   .Navigation(b => b.Cuentas)
-            //   .UsePropertyAccessMode(PropertyAccessMode.Property);
-
-            //modelBuilder.Entity<Movimiento>().HasOne(e => e.Cuenta);
         }
 
         public DbSet<Cliente> Clientes { get; set; }

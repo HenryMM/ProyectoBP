@@ -10,5 +10,6 @@ namespace App.BP.BLL.Interfaces
         Task<Movimiento> EditarMovimientoAsync(MovimientoDTO movimientoDTO);
         Task EliminarMovimientoAsync(int id);
         Task<List<Movimiento>> ObtenerMovimientosByAsync(int clienteId, DateTime fecha);
+
     }
 }

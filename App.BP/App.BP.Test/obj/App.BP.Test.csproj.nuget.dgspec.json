@@ -4,14 +4,137 @@
     "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.Test\\App.BP.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.Test\\App.BP.Test.csproj": {
+    "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.BLL\\App.BP.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.Test\\App.BP.Test.csproj",
-        "projectName": "App.BP.Test",
-        "projectPath": "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.Test\\App.BP.Test.csproj",
+        "projectUniqueName": "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.BLL\\App.BP.BLL.csproj",
+        "projectName": "App.BP.BLL",
+        "projectPath": "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.BLL\\App.BP.BLL.csproj",
         "packagesPath": "C:\\Users\\Henry\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.Test\\obj\\",
+        "outputPath": "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Henry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.Common\\App.BP.Common.csproj": {
+                "projectPath": "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.Common\\App.BP.Common.csproj"
+              },
+              "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.Repository\\App.BP.Repository.csproj": {
+                "projectPath": "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.Repository\\App.BP.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.Common\\App.BP.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.Common\\App.BP.Common.csproj",
+        "projectName": "App.BP.Common",
+        "projectPath": "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.Common\\App.BP.Common.csproj",
+        "packagesPath": "C:\\Users\\Henry\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Henry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.Data\\App.BP.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.Data\\App.BP.Data.csproj",
+        "projectName": "App.BP.Data",
+        "projectPath": "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.Data\\App.BP.Data.csproj",
+        "packagesPath": "C:\\Users\\Henry\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Henry\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,9 +163,145 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.Repository\\App.BP.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.Repository\\App.BP.Repository.csproj",
+        "projectName": "App.BP.Repository",
+        "projectPath": "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.Repository\\App.BP.Repository.csproj",
+        "packagesPath": "C:\\Users\\Henry\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Henry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.Data\\App.BP.Data.csproj": {
+                "projectPath": "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.Data\\App.BP.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.Test\\App.BP.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.Test\\App.BP.Test.csproj",
+        "projectName": "App.BP.Test",
+        "projectPath": "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.Test\\App.BP.Test.csproj",
+        "packagesPath": "C:\\Users\\Henry\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Henry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.BLL\\App.BP.BLL.csproj": {
+                "projectPath": "C:\\Users\\Henry\\Documents\\Prueba BP\\ProyectoBP\\App.BP\\App.BP.BLL\\App.BP.BLL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.1.0, )"
+            },
+            "Mock": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.2, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[4.4.0, )"
             },
             "NUnit": {
               "target": "Package",
