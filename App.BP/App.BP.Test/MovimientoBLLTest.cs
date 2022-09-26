@@ -40,5 +40,27 @@ namespace App.BP.Test
             //Assert
             Assert.IsNotNull(result.Data);
         }
+
+        [Test]
+        public async Task CrearMovimientoAsync_SaldoEsCero_NoCrearRegistro()
+        {
+            //Arrange
+            var _repositoryMovimiento = Substitute.For<IRepository<Movimiento>>();
+            var _repositoryCuenta = Substitute.For<IRepository<Cuenta>>();
+            IMovimientoBLL movimientoBll = new MovimientoBLL(_repositoryMovimiento, _repositoryCuenta);
+
+            MovimientoEfectuado movimientoEfectuado = new MovimientoEfectuado
+            {
+                Tipo = "Credito",
+                CuentaId = 1,
+                CantidadMovimiento = 20
+            };
+
+            //Act
+            var result = await movimientoBll.CrearMovimientoAsync(movimientoEfectuado);
+
+            //Assert
+            Assert.Equals(result.Mensaje,"Saldo Insuficiente");
+        }
     }
 }
