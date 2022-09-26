@@ -1,7 +1,6 @@
 ﻿using App.BP.BLL.Interfaces;
 using App.BP.Common.DTO;
 using App.BP.Data.Models;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace App.BP.WebAPI.Controllers

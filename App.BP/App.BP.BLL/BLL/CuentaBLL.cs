@@ -3,11 +3,6 @@ using App.BP.Common.DTO;
 using App.BP.Data.Models;
 using App.BP.Repository.Interfaces;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace App.BP.BLL.BLL
 {
@@ -20,6 +15,7 @@ namespace App.BP.BLL.BLL
             _repository = repository;
         }
 
+        #region Public Methods
         public async Task<Cuenta> CrearCuentaAsync(Cuenta cuenta)
         {
             await _repository.CreateEntityAsync(cuenta);
@@ -55,6 +51,7 @@ namespace App.BP.BLL.BLL
             List<Cuenta> cuentas = await query.ToListAsync();
             return cuentas;
         }
+        #endregion
 
     }
 }

@@ -17,6 +17,7 @@ namespace App.BP.BLL.BLL
             _repositoryPersona = repositoryPersona;
         }
 
+        #region Public Methods
         public async Task<List<Cliente>> ObtenerClientesAsync()
         {
             var query = await _repositoryCliente.GetAllAsync();
@@ -78,5 +79,6 @@ namespace App.BP.BLL.BLL
             await _repositoryCliente.DeleteEntityAsync(id);
             await _repositoryCliente.SaveAsync();
         }
+        #endregion
     }
 }
