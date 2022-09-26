@@ -12,10 +12,12 @@ namespace App.BP.Data.Models
         [Required]
         public string Tipo { get; set; }
         [Required]
-        public int SaldoActual { get; set; }
+        public int SaldoInicial { get; set; }
         [Required]
         public bool Estado { get; set; }
         [Required]
         public int ClienteId { get; set; }
+        public Cliente Cliente { get; set; }
+        public List<Movimiento> Movimientos { get; set; }
     }
 }

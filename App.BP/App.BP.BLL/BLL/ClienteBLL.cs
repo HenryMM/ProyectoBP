@@ -17,7 +17,7 @@ namespace App.BP.BLL.BLL
             _repositoryPersona = repositoryPersona;
         }
 
-        public async Task<List<Cliente>> ObtenerClientes()
+        public async Task<List<Cliente>> ObtenerClientesAsync()
         {
             var query = await _repositoryCliente.GetAllAsync();
 
@@ -25,7 +25,7 @@ namespace App.BP.BLL.BLL
             return clientes;
         }
 
-        public async Task<Cliente> CrearCliente(ClienteDTO clienteDto)
+        public async Task<Cliente> CrearClienteAsync(ClienteDTO clienteDto)
         {
 
             Persona persona = new Persona { 
@@ -51,7 +51,7 @@ namespace App.BP.BLL.BLL
             return cliente;
         }
 
-        public async Task<Cliente> EditarCliente(ClienteDTO clienteDto)
+        public async Task<Cliente> EditarClienteAsync(ClienteDTO clienteDto)
         {
             Cliente cliente = await _repositoryCliente.GetEntityByIdAsync(clienteDto.ClienteId);
 
@@ -73,7 +73,7 @@ namespace App.BP.BLL.BLL
             return cliente;
         }
 
-        public async Task EliminarCliente(int id)
+        public async Task EliminarClienteAsync(int id)
         {
             await _repositoryCliente.DeleteEntityAsync(id);
             await _repositoryCliente.SaveAsync();

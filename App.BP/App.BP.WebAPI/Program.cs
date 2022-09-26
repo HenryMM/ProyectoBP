@@ -18,6 +18,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddTransient<IClienteBLL, ClienteBLL>();
+builder.Services.AddTransient<ICuentaBLL, CuentaBLL>();
+builder.Services.AddTransient<IMovimientoBLL, MovimientoBLL>();
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
 //builder.Services.AddScoped<IClienteBLL, ClienteBLL>();

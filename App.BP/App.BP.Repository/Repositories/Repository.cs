@@ -1,4 +1,5 @@
 ﻿using App.BP.Data;
+using App.BP.Data.Models;
 using App.BP.Repository.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
@@ -27,6 +28,7 @@ namespace App.BP.Repository.Repositories
             return entity;
         }
 
+
         public async Task DeleteEntityAsync(int id)
         {
             T entity = await EntitySet.FindAsync(id);
@@ -34,6 +36,13 @@ namespace App.BP.Repository.Repositories
         }
 
        
+        public async Task<IQueryable<T>> GetAllAsync(string[] incluir)
+        {
+            IQueryable<T> query = EntitySet.AsQueryable<T>();
+            query = IncluirPropiedadesNavegacion(query, incluir);
+            return query;
+        }
+
         public async Task<IQueryable<T>> GetAllAsync()
         {
             IQueryable<T> query = EntitySet.AsQueryable<T>();
@@ -65,6 +74,19 @@ namespace App.BP.Repository.Repositories
         public async ValueTask DisposeAsync()
         {
             throw new NotImplementedException();
+        }
+
+        private IQueryable<T> IncluirPropiedadesNavegacion(IQueryable<T> query,string[] incluir)
+        {
+            if (incluir != null)
+            {
+                foreach (string navprop in incluir)
+                {
+                    query = query.Include(navprop);
+                }
+            }
+
+            return query;
         }
 
     }

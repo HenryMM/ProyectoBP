@@ -5,6 +5,7 @@ namespace App.BP.Repository.Interfaces
     public interface IRepository<T>:IAsyncDisposable where T : class
     {
         Task<T> GetEntityByIdAsync(int id);
+        Task<IQueryable<T>> GetAllAsync(string[] incluir);
         Task<IQueryable<T>> GetAllAsync();
         Task<IQueryable<T>> SearchByAsync(Expression<Func<T, bool>> predicate);
         Task<T> CreateEntityAsync(T entity);

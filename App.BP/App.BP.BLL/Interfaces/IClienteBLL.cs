@@ -5,10 +5,9 @@ namespace App.BP.BLL.Interfaces
 {
     public interface IClienteBLL
     {
-        Task<List<Cliente>> ObtenerClientes();
-
-        Task<Cliente> CrearCliente(ClienteDTO cliente);
-        Task<Cliente> EditarCliente(ClienteDTO clienteDto);
-        Task EliminarCliente(int id);
+        Task<List<Cliente>> ObtenerClientesAsync();
+        Task<Cliente> CrearClienteAsync(ClienteDTO cliente);
+        Task<Cliente> EditarClienteAsync(ClienteDTO clienteDto);
+        Task EliminarClienteAsync(int id);
     }
 }

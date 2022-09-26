@@ -21,7 +21,7 @@ namespace App.BP.WebAPI.Controllers
         [HttpGet]
         public async Task<IActionResult> GetClients()
         {
-            List<Cliente> clientes = await _clientBLL.ObtenerClientes();
+            List<Cliente> clientes = await _clientBLL.ObtenerClientesAsync();
             
             return Ok(clientes);
         }
@@ -29,7 +29,7 @@ namespace App.BP.WebAPI.Controllers
         [HttpPost]
         public async Task<IActionResult> CrearCliente(ClienteDTO clienteDTO)
         {
-            Cliente cliente = await _clientBLL.CrearCliente(clienteDTO);
+            Cliente cliente = await _clientBLL.CrearClienteAsync(clienteDTO);
 
             return Ok(cliente);
         }
@@ -37,7 +37,7 @@ namespace App.BP.WebAPI.Controllers
         [HttpPut]
         public async Task<IActionResult> EditarCliente(ClienteDTO clienteDTO)
         {
-            Cliente cliente = await _clientBLL.EditarCliente(clienteDTO);
+            Cliente cliente = await _clientBLL.EditarClienteAsync(clienteDTO);
 
             return Ok(cliente);
         }
@@ -45,7 +45,7 @@ namespace App.BP.WebAPI.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> EliminarCliente(int id)
         {
-            await _clientBLL.EliminarCliente(id);
+            await _clientBLL.EliminarClienteAsync(id);
 
             return Ok();
         }

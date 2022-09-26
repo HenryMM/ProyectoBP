@@ -20,8 +20,8 @@ namespace App.BP.Data.Models
         [Required]
         public string Tipo { get; set; }
         [Required]
-        public string CuentaId { get; set; }
-
+        public int CuentaId { get; set; }
+        public Cuenta Cuenta { get; set; }
 
     }
 }

@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.BP.WebAPI", "App.BP.WebAPI\App.BP.WebAPI.csproj", "{BC4DF956-5F84-44F3-8C39-A87282C96D79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.BP.WebAPI", "App.BP.WebAPI\App.BP.WebAPI.csproj", "{BC4DF956-5F84-44F3-8C39-A87282C96D79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.BP.Data", "App.BP.Data\App.BP.Data.csproj", "{5121B7E3-B23B-45D9-83D7-ED579C8590BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.BP.Data", "App.BP.Data\App.BP.Data.csproj", "{5121B7E3-B23B-45D9-83D7-ED579C8590BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.BP.Repository", "App.BP.Repository\App.BP.Repository.csproj", "{C182E93E-8849-45FF-B526-DE9673A20C77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.BP.Repository", "App.BP.Repository\App.BP.Repository.csproj", "{C182E93E-8849-45FF-B526-DE9673A20C77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.BP.BLL", "App.BP.BLL\App.BP.BLL.csproj", "{C67D6F2A-E2B3-487A-BE7F-B62C603FCF8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.BP.BLL", "App.BP.BLL\App.BP.BLL.csproj", "{C67D6F2A-E2B3-487A-BE7F-B62C603FCF8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.BP.Common", "App.BP.Common\App.BP.Common.csproj", "{0E64F540-FC10-4F44-A0E4-9087493C781E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.BP.Common", "App.BP.Common\App.BP.Common.csproj", "{0E64F540-FC10-4F44-A0E4-9087493C781E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.BP.Test", "App.BP.Test\App.BP.Test.csproj", "{49D868AC-8B44-4702-A7BF-758723667CEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{0E64F540-FC10-4F44-A0E4-9087493C781E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E64F540-FC10-4F44-A0E4-9087493C781E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E64F540-FC10-4F44-A0E4-9087493C781E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49D868AC-8B44-4702-A7BF-758723667CEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49D868AC-8B44-4702-A7BF-758723667CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49D868AC-8B44-4702-A7BF-758723667CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49D868AC-8B44-4702-A7BF-758723667CEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
