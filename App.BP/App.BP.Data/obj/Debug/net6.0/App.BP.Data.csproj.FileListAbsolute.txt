@@ -10,3 +10,5 @@ C:\Users\Henry\Documents\Prueba BP\ProyectoBP\App.BP\App.BP.Data\obj\Debug\net6.
 C:\Users\Henry\Documents\Prueba BP\ProyectoBP\App.BP\App.BP.Data\obj\Debug\net6.0\refint\App.BP.Data.dll
 C:\Users\Henry\Documents\Prueba BP\ProyectoBP\App.BP\App.BP.Data\obj\Debug\net6.0\App.BP.Data.pdb
 C:\Users\Henry\Documents\Prueba BP\ProyectoBP\App.BP\App.BP.Data\obj\Debug\net6.0\ref\App.BP.Data.dll
+C:\Users\Henry\Documents\Prueba BP\ProyectoBP\App.BP\App.BP.Data\bin\Debug\net6.0\App.BP.Data.runtimeconfig.json
+C:\Users\Henry\Documents\Prueba BP\ProyectoBP\App.BP\App.BP.Data\obj\Debug\net6.0\App.BP.Data.genruntimeconfig.cache
